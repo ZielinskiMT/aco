@@ -8,12 +8,16 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # headers
 set( Headers
-
+    ant.h
+    graph.h
+    argprs.h
 )
 
 # source
 set( Sources
-
+    ant.cpp
+    graph.cpp
+    argprs.cpp
 )
 
 # tests
